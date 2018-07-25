@@ -1,0 +1,29 @@
+{
+	"name": "Block catch-up",
+	"seed": 123456789,
+	"start": 0,
+	"end": 60000,
+	"speed": 1,
+	"many_nodes": 
+	[
+		{
+			"id_prefix": "publish",
+			"class": "SimulatedTransactionNode",
+			"permission": 1,
+			"count": 25,
+			"speedUpload": 10000,
+			"speedDownload": 10000
+		},
+		{
+			"id_prefix": "write",
+			"class": "SimulatedBlockWriteNode",
+			"permission": 2,
+			"count": 3,
+			"speedUpload": 10000,
+			"speedDownload": 10000
+		}
+	],
+	"graphs": {
+		"node": ["publish_1", "transaction_pool", "transactions_verified", "blocks_accepted", "connection_speeds"]
+	}
+}

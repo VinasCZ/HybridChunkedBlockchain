@@ -1,0 +1,26 @@
+{
+	"name": "Basic connection",
+	"seed": 123456789,
+	"start": 0,
+	"end": 5000,
+	"speed": 1,
+	"nodes": [
+		{
+			"id": "node_1",
+			"class": "SimulatedDeafNode",
+			"permission": 0,
+			"connectionCooldown": 5000,
+			"connectionStale": 500
+    	},
+    	{
+			"id": "node_2",
+			"class": "SimulatedDeafNode",
+      		"permission": 0,
+			"connectionCooldown": 5000,
+			"connectionStale": 500
+    	}
+  	],
+	"logging": {
+		"nodes": ["node_1", "node_2"]
+  	}
+}

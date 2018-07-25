@@ -1,0 +1,30 @@
+{
+	"name": "Default scenario, 5 read nodes, 1 transaction node, 1 block node; watching the network",
+	"seed": 123456789,
+	"start": 0,
+	"end": 25000,
+	"many_nodes": 
+	[
+		{
+			"id_prefix": "read",
+			"class": "SimulatedReadNode",
+			"permission": 0,
+			"count": 5
+		},
+		{
+			"id_prefix": "publish",
+			"class": "SimulatedTransactionNode",
+			"permission": 1,
+			"count": 1
+		},
+		{
+			"id_prefix": "write",
+			"class": "SimulatedBlockWriteNode",
+			"permission": 2,
+			"count": 1
+		}
+	],
+	"graphs": {
+		"network": ["transaction_pool", "forward_signals", "connections", "signals_received", "signals_sent", "waiting_signals", "connection_speeds", "blocks_accepted", "transactions_verified"]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"name": "EET, scenario 1: 1500 publish, 1 write, 2 transactions per second, XML",
+	"seed": 123456789,
+	"start": 0,
+	"end": 15000,
+	"speed": 1,
+	"many_nodes": 
+	[
+		{
+			"id_prefix": "publish",
+			"class": "SimulatedSalesTransactionNode",
+			"permission": 1,
+			"count": 1500,
+			"speedUpload": 10000,
+			"speedDownload": 10000,
+			"transactionsPerSecond": 2 
+		},
+		{
+			"id_prefix": "write",
+			"class": "SimulatedBlockWriteNode",
+			"permission": 2,
+			"count": 1,
+			"speedUpload": 10000,
+			"speedDownload": 10000,
+			"minTransactions": 2
+		}
+	],
+	"graphs": {
+		"node": ["publish_0", "transaction_pool", "transactions_verified", "connection_speeds", "waiting_signals"]
+	}
+}

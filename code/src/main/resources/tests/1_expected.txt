@@ -1,0 +1,6 @@
+500: node_2 New DOWN connection from node_1, delay 42
+500: node_2 New UP connection to node_1, delay 42
+1132: node_1 closed DOWNLOAD from node_2
+1132: node_1 closed UPLOAD to node_2
+1532: node_2 closed DOWNLOAD from node_1
+1532: node_2 closed UPLOAD to node_1

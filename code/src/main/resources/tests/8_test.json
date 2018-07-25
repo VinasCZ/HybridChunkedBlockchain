@@ -1,0 +1,42 @@
+{
+	"name": "BLOCK acceptance, single WRITE node",
+	"seed": 123456789,
+	"start": 0,
+	"end": 5000,
+	"speed": 1,
+	"nodes": [
+		{
+			"id": "node_1",
+			"class": "SimulatedBlockWriteNode",
+			"permission": 2,
+			"connectionCost": 20,
+			"maxUploadConnections": 2,
+			"maxDownloadConnections": 2
+    	},
+    	{
+			"id": "node_2",
+			"class": "SimulatedTransactionNode",
+      		"permission": 1,
+			"connectionCost": 20,
+			"maxUploadConnections": 2,
+			"maxDownloadConnections": 2,
+			"ticksPerTransaction": 1000
+    	},
+    	{
+			"id": "node_3",
+			"class": "SimulatedReadNode",
+      		"permission": 0,
+			"connectionCost": 20,
+			"maxUploadConnections": 2,
+			"maxDownloadConnections": 2
+    	}
+  	],
+	"connections": [
+		"node_1 node_2 UD 25", 
+		"node_1 node_3 UD 50", 
+		"node_2 node_3 UD 5"
+	],
+	"logging": {
+		"special": ["BLOCK_HEIGHT", "TRANSACTION_POOL_LEN"]
+  	}
+}

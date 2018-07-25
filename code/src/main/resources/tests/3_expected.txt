@@ -1,0 +1,36 @@
+500: node_2 New DOWN connection from node_1, delay 20
+500: node_2 New UP connection to node_1, delay 20
+1021: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+1072: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+1123: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+1174: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+1225: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+1257: node_1 closed DOWNLOAD from node_2
+1257: node_1 closed UPLOAD to node_2
+1276: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+1512: node_2 closed DOWNLOAD from node_1
+1512: node_2 closed UPLOAD to node_1
+6500: node_1 New DOWN connection from node_2, delay 20
+6500: node_1 New UP connection to node_2, delay 20
+7021: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+7072: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+7123: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+7174: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+7225: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+7257: node_1 closed DOWNLOAD from node_2
+7257: node_1 closed UPLOAD to node_2
+7276: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+7512: node_2 closed DOWNLOAD from node_1
+7512: node_2 closed UPLOAD to node_1
+12500: node_1 New DOWN connection from node_2, delay 20
+12500: node_1 New UP connection to node_2, delay 20
+13021: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+13072: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+13123: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+13174: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+13225: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+13257: node_1 closed DOWNLOAD from node_2
+13257: node_1 closed UPLOAD to node_2
+13276: node_1 -> node_2 (sig 0) hash: 000b662105bd1aed101b54133afea000566b73cea332990f7e02352d0135f860, payload: null
+13512: node_2 closed DOWNLOAD from node_1
+13512: node_2 closed UPLOAD to node_1

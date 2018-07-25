@@ -1,0 +1,40 @@
+6: node_2 -> node_4 (sig 0) hash: 63cc96d584ecb739c8fa63e5407d39933a8a778071cdc7e4a7e3cb790f5d643d, payload: null
+6: node_4 {node_2=6, node_3=0}
+6: node_4 -> node_2 (sig 0) hash: 24381838191069ae25a120a3015bb55f7e16f185c289f0f86899f743c211812c, payload: null
+6: node_2 {node_1=0, node_4=6}
+11: node_3 -> node_4 (sig 0) hash: 9950a90fb7b773293e48988b4b567b33cd009349c3a303d896fb4f6e617764e4, payload: null
+11: node_4 {node_2=6, node_3=11}
+11: node_4 -> node_3 (sig 0) hash: 24381838191069ae25a120a3015bb55f7e16f185c289f0f86899f743c211812c, payload: null
+11: node_3 {node_1=0, node_4=11}
+26: node_1 -> node_2 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+26: node_2 {node_1=26, node_4=6}
+26: node_2 -> node_1 (sig 0) hash: 63cc96d584ecb739c8fa63e5407d39933a8a778071cdc7e4a7e3cb790f5d643d, payload: null
+26: node_1 {node_2=26}
+51: node_1 -> node_3 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+51: node_3 {node_1=51, node_4=11}
+51: node_3 -> node_1 (sig 0) hash: 9950a90fb7b773293e48988b4b567b33cd009349c3a303d896fb4f6e617764e4, payload: null
+51: node_1 {node_2=26, node_3=51}
+1006: node_2 -> node_4 (sig 0) hash: 63cc96d584ecb739c8fa63e5407d39933a8a778071cdc7e4a7e3cb790f5d643d, payload: null
+1006: node_4 {node_2=1006, node_3=11}
+1006: node_4 -> node_2 (sig 0) hash: 24381838191069ae25a120a3015bb55f7e16f185c289f0f86899f743c211812c, payload: null
+1006: node_2 {node_1=26, node_4=1006}
+1011: node_3 -> node_4 (sig 0) hash: 9950a90fb7b773293e48988b4b567b33cd009349c3a303d896fb4f6e617764e4, payload: null
+1011: node_4 {node_2=1006, node_3=1011}
+1011: node_4 -> node_3 (sig 0) hash: 24381838191069ae25a120a3015bb55f7e16f185c289f0f86899f743c211812c, payload: null
+1011: node_3 {node_1=51, node_4=1011}
+1026: node_1 -> node_2 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+1026: node_2 {node_1=1026, node_4=1006}
+1026: node_2 -> node_1 (sig 0) hash: 63cc96d584ecb739c8fa63e5407d39933a8a778071cdc7e4a7e3cb790f5d643d, payload: null
+1026: node_1 {node_2=1026, node_3=51}
+1031: node_2 -> node_4 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+1031: node_4 {node_1=1031, node_2=1006, node_3=1011}
+1036: node_4 -> node_2 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+1036: node_2 {node_1=1036, node_4=1006}
+1041: node_4 -> node_3 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+1041: node_3 {node_1=1041, node_4=1011}
+1051: node_1 -> node_3 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+1051: node_3 {node_1=1051, node_4=1011}
+1051: node_3 -> node_1 (sig 0) hash: 9950a90fb7b773293e48988b4b567b33cd009349c3a303d896fb4f6e617764e4, payload: null
+1051: node_1 {node_2=1026, node_3=1051}
+1051: node_3 -> node_4 (sig 0) hash: 0adf15224d729244e7c3e99fb30c0b1fdad68f7ce902bd6eddefb4238477d095, payload: 1
+1051: node_4 {node_1=1051, node_2=1006, node_3=1011}

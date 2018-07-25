@@ -1,0 +1,11 @@
+25: node_1 blockchain height: 1
+60: node_2 ACK for signal with hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277
+60: node_1 -> node_2 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+60: node_2 blockchain height: 1
+65: node_3 ACK for signal with hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277
+65: node_2 -> node_3 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+65: node_3 blockchain height: 1
+71: node_2 ACK for signal with hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277
+71: node_3 -> node_2 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+87: node_3 ACK for signal with hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277
+87: node_1 -> node_3 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699

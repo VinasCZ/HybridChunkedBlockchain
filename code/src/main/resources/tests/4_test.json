@@ -1,0 +1,30 @@
+{
+	"name": "Delayed ACK signals",
+	"seed": 123456789,
+	"start": 0,
+	"end": 5000,
+	"speed": 1,
+	"nodes": [
+		{
+			"id": "node_1",
+			"class": "SimulatedReadNode",
+			"permission": 0,
+			"connectionCooldown": 5000,
+			"connectionStale": 10000,
+			"activeDisconnectThreshold": 5,
+			"connectionCost": 20
+    	},
+    	{
+			"id": "node_2",
+			"class": "SimulatedDelayedNode",
+      		"permission": 0,
+			"connectionCooldown": 5000,
+			"connectionStale": 10000,
+			"repetitionDisconnectThreshold": 10,
+			"connectionCost": 20
+    	}
+  	],
+	"logging": {
+		"nodes": ["node_1", "node_2"]
+  	}
+}

@@ -1,0 +1,117 @@
+15: node_1 Regular block from node_1, height 1, new chain height of 1 1:node_1:INIT:INIT:node_2;-1040170699
+35: node_3 Regular block from node_1, height 1, new chain height of 1 1:node_1:INIT:INIT:node_2;-1040170699
+40: node_2 Regular block from node_1, height 1, new chain height of 1 1:node_1:INIT:INIT:node_2;-1040170699
+45: node_4 Regular block from node_1, height 1, new chain height of 1 1:node_1:INIT:INIT:node_2;-1040170699
+1005: node_3 Regular block from node_3, height 2, new chain height of 2 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1005: node_3 Will create a new block: Regular
+1020: node_2 Regular block from node_3, height 2, new chain height of 2 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1025: node_1 Regular block from node_3, height 2, new chain height of 2 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1025: node_4 Regular block from node_3, height 2, new chain height of 2 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+2015: node_1 Regular block from node_1, height 3, new chain height of 3 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2035: node_3 Regular block from node_1, height 3, new chain height of 3 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2040: node_2 Regular block from node_1, height 3, new chain height of 3 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2045: node_4 Regular block from node_1, height 3, new chain height of 3 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+3005: node_3 Will create a new block: Invalid height -> too far in the future
+3016: node_3 Will create a new block: Invalid height
+3027: node_3 Will create a new block: Invalid creator
+3038: node_3 Will create a new block: Invalid creator
+3049: node_3 Will create a new block: Invalid creator
+3060: node_3 Will create a new block: Invalid Hash chain
+3065: node_2 Regular block from node_3, height 4, new chain height of 4 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:8426fe6df433aa66a723428b5c6776572f7e7ff4af42b69831a99898225cfd1f:node_2;-346723
+3070: node_1 Regular block from node_3, height 4, new chain height of 4 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:8426fe6df433aa66a723428b5c6776572f7e7ff4af42b69831a99898225cfd1f:node_2;-346723
+3070: node_4 Regular block from node_3, height 4, new chain height of 4 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:8426fe6df433aa66a723428b5c6776572f7e7ff4af42b69831a99898225cfd1f:node_2;-346723
+3071: node_3 Will create a new block: Invalid Hash chain
+3082: node_3 Will create a new block: Invalid height -> too far in the future
+3093: node_3 Will create a new block: Invalid creator
+3104: node_3 Will create a new block: Invalid height -> too far in the future
+3115: node_3 Will create a new block: Invalid Hash chain
+3126: node_3 Regular block from node_3, height 4, new chain height of 4 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+3126: node_3 Will create a new block: Regular
+4015: node_1 Regular block from node_1, height 5, new chain height of 5 5:node_1:fd0f738a4ea5d5e3f1c71cf858e22b45cd28b4aa28b70abe89f450b4e816b8a9:INIT:node_2;-260042
+4050: node_2 Regular block from node_1, height 5, new chain height of 5 5:node_1:fd0f738a4ea5d5e3f1c71cf858e22b45cd28b4aa28b70abe89f450b4e816b8a9:INIT:node_2;-260042
+4060: node_4 Regular block from node_1, height 5, new chain height of 5 5:node_1:fd0f738a4ea5d5e3f1c71cf858e22b45cd28b4aa28b70abe89f450b4e816b8a9:INIT:node_2;-260042
+5128: node_3 -> node_2 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+5128: node_3 -> node_1 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+5128: node_3 -> node_4 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+6017: node_1 -> node_3 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+6017: node_1 -> node_2 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+6052: node_2 -> node_3 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+6052: node_2 -> node_4 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+6052: node_2 -> node_1 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+6062: node_4 -> node_3 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+6062: node_4 -> node_2 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+7129: node_3 -> node_2 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+7129: node_3 -> node_1 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+7129: node_3 -> node_4 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+8018: node_1 -> node_3 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+8018: node_1 -> node_2 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+8053: node_2 -> node_3 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+8053: node_2 -> node_4 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+8053: node_2 -> node_1 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+8063: node_4 -> node_3 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+8063: node_4 -> node_2 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+9130: node_3 -> node_2 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+9130: node_3 -> node_1 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+9130: node_3 -> node_4 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+10019: node_1 -> node_3 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+10019: node_1 -> node_2 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+10054: node_2 -> node_3 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+10054: node_2 -> node_4 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+10054: node_2 -> node_1 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+10064: node_4 -> node_3 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+10064: node_4 -> node_2 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+11131: node_3 -> node_2 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+11131: node_3 -> node_1 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+11131: node_3 -> node_4 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+12020: node_1 -> node_3 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+12020: node_1 -> node_2 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+12055: node_2 -> node_3 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+12055: node_2 -> node_4 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+12055: node_2 -> node_1 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+12065: node_4 -> node_3 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+12065: node_4 -> node_2 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+13132: node_3 -> node_2 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+13132: node_3 -> node_1 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+13132: node_3 -> node_4 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+14021: node_1 -> node_3 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+14021: node_1 -> node_2 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+14056: node_2 -> node_3 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+14056: node_2 -> node_4 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+14056: node_2 -> node_1 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+14066: node_4 -> node_3 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+14066: node_4 -> node_2 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+15132: node_3 Shifting forger
+15132: node_3 Future block received from node_1, height 5
+15133: node_3 -> node_2 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+15133: node_3 -> node_1 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+15133: node_3 -> node_4 (sig 5) hash: b806341b44d87822d8ad4c03849e55b07f6f1cd312870d53c77bf5ef294e774e, payload: 414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2
+15133: node_3 Will create a new block: Invalid height -> too far in the future
+15133: node_3 Future block received from node_1, height 5
+15144: node_3 Regular block from node_3, height 5, new chain height of 5 5:node_3:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-148595||node_2;-130021||node_2;-260042||node_2;-208034||node_2;-115574||node_2;-74297||node_2;-80013||node_2;-94560||node_2;-104017||node_2;-86680||node_2;-173361||node_2;-69344
+15144: node_3 Will create a new block: Regular
+16021: node_1 Shifting forger
+16022: node_1 -> node_3 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+16022: node_1 -> node_2 (sig 5) hash: f689bc5dbd619872d12a57cffb7dba8d37818490d216a199668f63d20bb277b2, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+16022: node_1 Regular block from node_1, height 6, new chain height of 6 6:node_1:eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f:INIT:node_2;-148595||node_2;-130021||node_2;-208034||node_2;-115574||node_2;-74297||node_2;-65010||node_2;-80013||node_2;-94560||node_2;-104017||node_2;-86680||node_2;-173361||node_2;-69344
+16056: node_2 Shifting forger
+16057: node_2 -> node_3 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+16057: node_2 -> node_4 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+16057: node_2 -> node_1 (sig 5) hash: a916ea8c067dbe60b1197e50d65d90a0cf6a6a8e6dd302bd120b71654ce57022, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+16057: node_2 Regular block from node_1, height 6, new chain height of 6 6:node_1:eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f:INIT:node_2;-148595||node_2;-130021||node_2;-208034||node_2;-115574||node_2;-74297||node_2;-65010||node_2;-80013||node_2;-94560||node_2;-104017||node_2;-86680||node_2;-173361||node_2;-69344
+16066: node_4 Shifting forger
+16067: node_4 -> node_3 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+16067: node_4 -> node_2 (sig 5) hash: 08587749aa9f05637da2a752a6b065d1d66b901f931ebb022d9023593f818774, payload: eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f
+16067: node_4 Regular block from node_1, height 6, new chain height of 6 6:node_1:eb97b6015a2134717b907e13a9a2389c793337e03dd8a1db1829024e3bd7d27f:INIT:node_2;-148595||node_2;-130021||node_2;-208034||node_2;-115574||node_2;-74297||node_2;-65010||node_2;-80013||node_2;-94560||node_2;-104017||node_2;-86680||node_2;-173361||node_2;-69344
+17146: node_3 -> node_2 (sig 5) hash: 9ac9221759f0b43c140f9626823ca3903687e0cfb107adf8f1cc49a31ad467c6, payload: 3bebde26b026a34a1dd1d879910e4f0a414c5832eb36d622d18a5ece33f5143c
+17146: node_3 -> node_1 (sig 5) hash: 9ac9221759f0b43c140f9626823ca3903687e0cfb107adf8f1cc49a31ad467c6, payload: 3bebde26b026a34a1dd1d879910e4f0a414c5832eb36d622d18a5ece33f5143c
+17146: node_3 -> node_4 (sig 5) hash: 9ac9221759f0b43c140f9626823ca3903687e0cfb107adf8f1cc49a31ad467c6, payload: 3bebde26b026a34a1dd1d879910e4f0a414c5832eb36d622d18a5ece33f5143c
+18024: node_1 -> node_3 (sig 5) hash: e362e85acc522fae4bc036d84c4c716b8718d02f783cf1aa478bdea7cc889b4e, payload: 1d4d3902995e7c22ae88a534f011cb0fae1bd82fb275fb7d38f04ceda9bb06df
+18024: node_1 -> node_2 (sig 5) hash: e362e85acc522fae4bc036d84c4c716b8718d02f783cf1aa478bdea7cc889b4e, payload: 1d4d3902995e7c22ae88a534f011cb0fae1bd82fb275fb7d38f04ceda9bb06df
+18059: node_2 -> node_3 (sig 5) hash: 4d5cb0dd314744edf4c30c7c43d5e46c3b0c6681846b107f7c4c1adbbf1eba3e, payload: 1d4d3902995e7c22ae88a534f011cb0fae1bd82fb275fb7d38f04ceda9bb06df
+18059: node_2 -> node_4 (sig 5) hash: 4d5cb0dd314744edf4c30c7c43d5e46c3b0c6681846b107f7c4c1adbbf1eba3e, payload: 1d4d3902995e7c22ae88a534f011cb0fae1bd82fb275fb7d38f04ceda9bb06df
+18059: node_2 -> node_1 (sig 5) hash: 4d5cb0dd314744edf4c30c7c43d5e46c3b0c6681846b107f7c4c1adbbf1eba3e, payload: 1d4d3902995e7c22ae88a534f011cb0fae1bd82fb275fb7d38f04ceda9bb06df
+18069: node_4 -> node_3 (sig 5) hash: d162921b9c6e9ab5bdbf4d90516d2beba9aee1eefd5305f3021fc29c95c382f1, payload: 1d4d3902995e7c22ae88a534f011cb0fae1bd82fb275fb7d38f04ceda9bb06df
+18069: node_4 -> node_2 (sig 5) hash: d162921b9c6e9ab5bdbf4d90516d2beba9aee1eefd5305f3021fc29c95c382f1, payload: 1d4d3902995e7c22ae88a534f011cb0fae1bd82fb275fb7d38f04ceda9bb06df
+19147: node_3 -> node_2 (sig 5) hash: 9ac9221759f0b43c140f9626823ca3903687e0cfb107adf8f1cc49a31ad467c6, payload: 3bebde26b026a34a1dd1d879910e4f0a414c5832eb36d622d18a5ece33f5143c
+19147: node_3 -> node_1 (sig 5) hash: 9ac9221759f0b43c140f9626823ca3903687e0cfb107adf8f1cc49a31ad467c6, payload: 3bebde26b026a34a1dd1d879910e4f0a414c5832eb36d622d18a5ece33f5143c
+19147: node_3 -> node_4 (sig 5) hash: 9ac9221759f0b43c140f9626823ca3903687e0cfb107adf8f1cc49a31ad467c6, payload: 3bebde26b026a34a1dd1d879910e4f0a414c5832eb36d622d18a5ece33f5143c

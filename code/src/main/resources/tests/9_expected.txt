@@ -1,0 +1,55 @@
+15: node_1 blockchain height: 1
+35: node_1 -> node_3 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+35: node_3 blockchain height: 1
+45: node_3 -> node_4 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+45: node_4 blockchain height: 1
+50: node_1 -> node_2 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+50: node_2 blockchain height: 1
+55: node_4 -> node_2 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+56: node_2 -> node_3 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+56: node_4 -> node_3 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+60: node_2 -> node_4 (sig 1) hash: 563c1555e5ab592eb7221d2a5c49a084865cad85a049b649faa0485ca8b68277, payload: 1:node_1:INIT:INIT:node_2;-1040170699
+1005: node_3 blockchain height: 2
+1020: node_3 -> node_2 (sig 1) hash: 8348738959751cd3fe8b3a9b8b2d768ed1230e5fa8e7a6e9ddc2c878ab5451ab, payload: 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1020: node_2 blockchain height: 2
+1025: node_3 -> node_1 (sig 1) hash: 8348738959751cd3fe8b3a9b8b2d768ed1230e5fa8e7a6e9ddc2c878ab5451ab, payload: 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1025: node_1 blockchain height: 2
+1025: node_3 -> node_4 (sig 1) hash: 8348738959751cd3fe8b3a9b8b2d768ed1230e5fa8e7a6e9ddc2c878ab5451ab, payload: 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1025: node_4 blockchain height: 2
+1031: node_2 -> node_4 (sig 1) hash: 8348738959751cd3fe8b3a9b8b2d768ed1230e5fa8e7a6e9ddc2c878ab5451ab, payload: 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1035: node_4 -> node_2 (sig 1) hash: 8348738959751cd3fe8b3a9b8b2d768ed1230e5fa8e7a6e9ddc2c878ab5451ab, payload: 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1045: node_2 -> node_1 (sig 1) hash: 8348738959751cd3fe8b3a9b8b2d768ed1230e5fa8e7a6e9ddc2c878ab5451ab, payload: 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+1051: node_1 -> node_2 (sig 1) hash: 8348738959751cd3fe8b3a9b8b2d768ed1230e5fa8e7a6e9ddc2c878ab5451ab, payload: 2:node_3:eb35a2b8525739a23270d43caf47a1394dd306b60ce8ebb7f5413ac4d142750f:INIT:node_2;-1040170
+2015: node_1 blockchain height: 3
+2035: node_1 -> node_3 (sig 1) hash: 8cd41a6de0cf5039daf40dccce812675ce2081817ce17532a2b3ae0a21b36b14, payload: 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2035: node_3 blockchain height: 3
+2045: node_3 -> node_4 (sig 1) hash: 8cd41a6de0cf5039daf40dccce812675ce2081817ce17532a2b3ae0a21b36b14, payload: 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2045: node_4 blockchain height: 3
+2050: node_1 -> node_2 (sig 1) hash: 8cd41a6de0cf5039daf40dccce812675ce2081817ce17532a2b3ae0a21b36b14, payload: 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2050: node_2 blockchain height: 3
+2055: node_4 -> node_2 (sig 1) hash: 8cd41a6de0cf5039daf40dccce812675ce2081817ce17532a2b3ae0a21b36b14, payload: 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2056: node_2 -> node_3 (sig 1) hash: 8cd41a6de0cf5039daf40dccce812675ce2081817ce17532a2b3ae0a21b36b14, payload: 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2056: node_4 -> node_3 (sig 1) hash: 8cd41a6de0cf5039daf40dccce812675ce2081817ce17532a2b3ae0a21b36b14, payload: 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+2060: node_2 -> node_4 (sig 1) hash: 8cd41a6de0cf5039daf40dccce812675ce2081817ce17532a2b3ae0a21b36b14, payload: 3:node_1:a29efccf4f4a183e94558e24c3e3091673ad105490ec91f9f9cf986f5e410d6f:INIT:node_2;-520085
+3005: node_3 blockchain height: 4
+3020: node_3 -> node_2 (sig 1) hash: 36bb767271509226c75f5c8d67df8ec1eae9d607ba70bf38178bccfd8a03f820, payload: 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+3020: node_2 blockchain height: 4
+3025: node_3 -> node_4 (sig 1) hash: 36bb767271509226c75f5c8d67df8ec1eae9d607ba70bf38178bccfd8a03f820, payload: 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+3025: node_4 blockchain height: 4
+3027: node_3 -> node_1 (sig 1) hash: 36bb767271509226c75f5c8d67df8ec1eae9d607ba70bf38178bccfd8a03f820, payload: 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+3027: node_1 blockchain height: 4
+3031: node_2 -> node_4 (sig 1) hash: 36bb767271509226c75f5c8d67df8ec1eae9d607ba70bf38178bccfd8a03f820, payload: 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+3035: node_4 -> node_2 (sig 1) hash: 36bb767271509226c75f5c8d67df8ec1eae9d607ba70bf38178bccfd8a03f820, payload: 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+3045: node_2 -> node_1 (sig 1) hash: 36bb767271509226c75f5c8d67df8ec1eae9d607ba70bf38178bccfd8a03f820, payload: 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+3053: node_1 -> node_2 (sig 1) hash: 36bb767271509226c75f5c8d67df8ec1eae9d607ba70bf38178bccfd8a03f820, payload: 4:node_3:37b711f6027a7a3fe752b8575b530ec24e8b420c1f01676b7885bd35d74c2eab:INIT:node_2;-346723
+4015: node_1 blockchain height: 5
+4035: node_1 -> node_3 (sig 1) hash: db225397a7209fec6cec8f4d12100a8a7cec43ddfd9a08343dbe449183703c98, payload: 5:node_1:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-260042
+4035: node_3 blockchain height: 5
+4045: node_3 -> node_4 (sig 1) hash: db225397a7209fec6cec8f4d12100a8a7cec43ddfd9a08343dbe449183703c98, payload: 5:node_1:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-260042
+4045: node_4 blockchain height: 5
+4050: node_1 -> node_2 (sig 1) hash: db225397a7209fec6cec8f4d12100a8a7cec43ddfd9a08343dbe449183703c98, payload: 5:node_1:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-260042
+4050: node_2 blockchain height: 5
+4055: node_4 -> node_2 (sig 1) hash: db225397a7209fec6cec8f4d12100a8a7cec43ddfd9a08343dbe449183703c98, payload: 5:node_1:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-260042
+4056: node_2 -> node_3 (sig 1) hash: db225397a7209fec6cec8f4d12100a8a7cec43ddfd9a08343dbe449183703c98, payload: 5:node_1:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-260042
+4056: node_4 -> node_3 (sig 1) hash: db225397a7209fec6cec8f4d12100a8a7cec43ddfd9a08343dbe449183703c98, payload: 5:node_1:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-260042
+4060: node_2 -> node_4 (sig 1) hash: db225397a7209fec6cec8f4d12100a8a7cec43ddfd9a08343dbe449183703c98, payload: 5:node_1:414b79a23caf6c9eb1016fab3999d75763a6ecbd94ba216ab29c03ab378917c2:INIT:node_2;-260042
